@@ -1,0 +1,120 @@
+﻿
+<html>
+	<head>
+		<title>html5</title>
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="js/draw.js"></script>
+		
+		<link rel="stylesheet" href="css/my.css" type="text/css">
+	</head>
+
+	<body>
+		<label style="font-size: 15px;">我的画布</label>
+		<br>
+		<div id="mainDiv" onmousedown="startDraw(event)" onmousemove="drawCanvas(event)" onmouseup="endDraw()" onmouseout="endDraw()">
+			<canvas id="myCanvas" width="900" height="500">
+				your browser does not support the canvas tag
+			</canvas>
+			<input type="button" value="初始化画布" onclick="cnvs_clear()">
+		</div>
+		<div id="toolDiv">工具栏&nbsp;&nbsp;&nbsp;
+			<img alt="" src="ico/pencil.bmp" onclick="change_cursor(0)" id="pencil">
+			<img alt="" src="ico/eraser.bmp" onclick="change_cursor(1)" id="eraser">
+		</div>
+		<div id="colorDiv">颜料盒&nbsp;&nbsp;&nbsp;
+			<table>
+				<tr>
+					<td class="colorClass">
+						<img alt="" src="ico/color_000000.bmp" class="imgClass">
+					</td>
+					<td class="colorClass">
+						<img alt="" src="ico/color_000080.bmp" class="imgClass">
+					</td>
+					<td class="colorClass">
+						<img alt="" src="ico/color_004040.bmp" class="imgClass">
+					</td>
+					<td class="colorClass">
+						<img alt="" src="ico/color_004080.bmp" class="imgClass">
+					</td>
+					<td class="colorClass">
+						<img alt="" src="ico/color_008000.bmp" class="imgClass">
+					</td>
+					<td class="colorClass">
+						<img alt="" src="ico/color_008080.bmp" class="imgClass">
+					</td>
+					<td class="colorClass">
+						<img alt="" src="ico/color_0080FF.bmp" class="imgClass">
+					</td>
+					<td class="colorClass">
+						<img alt="" src="ico/color_800000.bmp" class="imgClass">
+					</td>
+					<td class="colorClass">
+						<img alt="" src="ico/color_800080.bmp" class="imgClass">
+					</td>
+					<td class="colorClass">
+						<img alt="" src="ico/color_8000FF.bmp" class="imgClass">
+					</td>
+					<td class="colorClass">
+						<img alt="" src="ico/color_804000.bmp" class="imgClass">
+					</td>
+					<td class="colorClass">
+						<img alt="" src="ico/color_808000.bmp" class="imgClass">
+					</td>
+					<td class="colorClass">
+						<img alt="" src="ico/color_808040.bmp" class="imgClass">
+					</td>
+					<td class="colorClass">
+						<img alt="" src="ico/color_808080.bmp" class="imgClass">
+					</td>
+				</tr>
+				<tr>
+					<td class="colorClass">
+						<img alt="" src="ico/color_0000FF.bmp" class="imgClass">
+					</td>
+					<td class="colorClass">
+						<img alt="" src="ico/color_00FF00.bmp" class="imgClass">
+					</td>
+					<td class="colorClass">
+						<img alt="" src="ico/color_00FF80.bmp" class="imgClass">
+					</td>
+					<td class="colorClass">
+						<img alt="" src="ico/color_00FFFF.bmp" class="imgClass">
+					</td>
+					<td class="colorClass">
+						<img alt="" src="ico/color_8080FF.bmp" class="imgClass">
+					</td>
+					<td class="colorClass">
+						<img alt="" src="ico/color_80FFFF.bmp" class="imgClass">
+					</td>
+					<td class="colorClass">
+						<img alt="" src="ico/color_ECE9D8.bmp" class="imgClass">
+					</td>
+					<td class="colorClass">
+						<img alt="" src="ico/color_FF0000.bmp" class="imgClass">
+					</td>
+					<td class="colorClass">
+						<img alt="" src="ico/color_FF0080.bmp" class="imgClass">
+					</td>
+					<td class="colorClass">
+						<img alt="" src="ico/color_FF00FF.bmp" class="imgClass">
+					</td>
+					<td class="colorClass">
+						<img alt="" src="ico/color_FF8040.bmp" class="imgClass">
+					</td>
+					<td class="colorClass">
+						<img alt="" src="ico/color_FFFF00.bmp" class="imgClass">
+					</td>
+					<td class="colorClass">
+						<img alt="" src="ico/color_FFFF80.bmp" class="imgClass">
+					</td>
+					<td class="colorClass">
+						<img alt="" src="ico/color_FFFFFF.bmp" class="imgClass">
+					</td>
+				</tr>
+			</table>
+			<div>
+				当前选中&nbsp;&nbsp;&nbsp;<img id="selectImg" alt="" src="ico/color_000000.bmp" style="border: inset 1px;">
+			</div>
+		</div>
+	</body>
+</html>

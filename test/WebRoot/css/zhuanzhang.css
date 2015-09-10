@@ -1,0 +1,59 @@
+
+/*
+	common
+*/
+li{width: 188px;height: 37px;;}
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+
+/*
+	main
+*/
+.container{padding-top: 1px;}
+.main_container{height: 780px;width: 990px;margin: 15px auto 0px auto;}
+
+/*
+	left
+*/
+.main_container_left{width: 190px;height: 295px;border-top: 1px solid #ccc;float: left;}
+#main_container_sider{line-height: 1.5;height: 34px;}
+#sheding_img{float: right;}
+
+.title_other_div{padding: 9px 10px 10px;background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(252, 252, 252)), to(rgb(241, 241, 241)));height: 18px;
+				border-left: 1px solid #ccc;border-right: 1px solid #ccc;border-bottom: 1px solid #ccc;cursor: pointer;position: relative;}
+.title_other_bottom_div{border-top: 1px solid #ccc;}
+.title{color: rgb(101, 101, 101);font-size: 14px;float: left;display: inline;font-weight: 700;line-height: 18px;}
+.container_item{font: 12px/1.5 tahoma,arial,\5b8b\4f53;color: #4d4d4d;border-left: 1px solid #ccc;border-right: 1px solid #ccc;}
+.container_item_img{float: left;display: inline;margin: 6px 10px;width: 24px;height: 24px;}
+.container_item_span{font-size: 12px;vertical-align: top;float: left;display: inline;line-height: 36px;cursor: pointer;width: 138px;}
+.container_item_tip{float: left;width: 50px;height: 36px;line-height: 36px;color: #d8d8d8;}
+.container_item_tip_link{float: left;width: 50px;height: 36px;line-height: 36px;color: #0087c9;}
+
+/*
+	right
+*/
+.main_container_right{width: 790px;float: right;}
+.main_container_head{padding-top: 0px;}
+.main_container_head_inner{height: 55px;background: #F2F6FA;border-top: 3px solid #CFDBE8;
+							border-bottom: solid 2px #E6EEF6;font: 12px/1.5 tahoma,arial,\5b8b\4f53;color: #4d4d4d;}
+.option_ul{font-size: 14px;padding-left: 15px;padding-top: 6px;height: 51px;}
+.option_ul_li_select{background: white;padding-left: 0px;border-top: solid 2px #E6EEF6;border-left: solid 2px #E6EEF6;border-radius: 4px 4px 0 0;margin-right: 20px;}
+.option_ul_li{cursor: pointer;color: #4D4D4D;font-weight: normal;font-size: 18px;float: left;height: 49px;line-height: 50px;}
+.option_ul_li_a{line-height: 50px;margin-left: 20px;height: 40px;position: relative;
+				text-decoration: none;display: block;cursor: pointer;font-size: 18px;color: #4D4D4D;}
+.option_ul_li_a:hover{text-decoration: none;}
+.option_ul_li_a_img{margin-right: 3px;vertical-align: middle;}
+.main_container_head_right{float: right;margin-top: -35px;font-size: 14px;color: #ccc;}
+.main_container_head_right_a{color: #08c;margin: 0px 15px;font-size: 14px;}
+
+.main_container_form_div{border: 2px solid #f2f6fa;border-bottom: solid 8px #f2f6fa;border-top: none;height: 365px;}
+.main_container_form_div_content{border-top: none;border-radius: 0 0 5px 5px;padding-top: 10px;}
+.main_container_form_div_inner{padding: 0px 5px;margin-top: 10px;padding-bottom: 12px;}
+label.normalText{color: #4d4d4d;font-size: 14px;width: 163px;float: left;text-align: right;margin-top: 3px;padding: 1px 12px 1px 0;}
+.main_container_form_div_inner_bank{position: relative;}
+.main_container_form_div_inner_bank_input{width: 232px;height: 32px;font-size: 14px;padding: 4px 10px 5px;border-top: 1px #AAA solid;border-right: 1px #DDD solid;border-bottom: 1px #DDD solid;border-left: 1px #AAA solid;}
+.main_container_form_div_inner_bank_input:hover{border-top: 1px #666 solid;border-left: 1px #666 solid;border-right: 1px #ccc solid;border-bottom: 1px #ccc solid;}
+.main_container_form_div_inner_bank_a{position: absolute;right: 5px;top: -7px;background: #fff url("https://img.alipay.com/sys/personalprod/style/common/apps-icons.png") no-repeat scroll 0 -41px;
+display: inline-block;width: 18px;height: 27px;cursor: pointer;}
+.main_container_form_div_inner_hassavedbank{margin-left: 14px;background-image: url(https://i.alipayobjects.com/e/201311/1PYbYdchYb.png);
+background-repeat: no-repeat;font-family: Tahoma;color: #08c;background-position: right -119px;padding-right: 15px;}

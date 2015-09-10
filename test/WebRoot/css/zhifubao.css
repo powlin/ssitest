@@ -1,0 +1,97 @@
+
+/*
+	whole page
+*/
+body{font: 400 12px/1.5 Verdana,Arial,"Hiragino Sans GB","ËÎÌו",sans-serif;color: white;}
+ul{list-style-type: none;margin: 0px auto;padding: 0px 0px;width: auto;height: auto;}
+a{text-decoration: none;}
+a:hover{text-decoration: underline;}
+li.li_btn:hover{background-color: white;}
+li.li_btn a:hover{text-decoration: none;}
+.body_div{position: absolute;top: 0px;left: 0px;width: 100%;}
+
+/*
+	top
+*/
+.top_div{position: absolute;width: 100%;height: 26px;top: 0px;left: 0px;right: 0px;background: #3d474a;}
+.head_li{display: inline;line-height: 26px;margin: 0px 3px;}
+.title_li{display: inline;line-height: 20px;margin: 0px 35px 0px 0px;font-size: 17px;font-weight: 700;cursor: pointer;color: #4d4d4d;}
+.title_li_select{color: #e66e1e;}
+.menu_li_select{font-size: 12px;display: inline;color: #e66e1e;line-height: 20px;}
+.menu_li_hidden{display: none;}
+.separateLi{display: inline;line-height: 26px;color: #61676d;padding: 0px 4px;}
+.functionDiv{border-radius:4px;width: 25px;height: 26px;display: inline;color: #fff;}
+.title_div{margin-top: 26px;background: #F6F6F6;z-index: 1;height: 75px;width: 100%;}
+.logo_div{padding: 17px 0px 18px;height: 40px;margin-left: 125px;float: left;}
+.no_content_div400{width: 500px;float: left;background: #f6f6f6;height: 100%;}
+.menu_div{float: left;height: 40px;font-size: 16px;font-weight: bold;color: black;margin-top: 30px;line-height: 40px;}
+.top_mobile_div{float: left;margin-left: 140px;width: 90px;}
+.top_information_div{float: left;margin-left: 39%;position: absolute;left: 215px;}
+
+/*
+	main
+*/
+.main_div{z-index: 1;height: 75px;width: 100%;height: 1247px;}
+.main_head_div{background: #4f5914 no-repeat center;height: 140px;}
+.main_title_div{background-color: rgba(255,255,255,.7);height: 32px;line-height: 32px;position: relative;}
+.width990_ul{width: 990px;}
+.search_form{width: 170px;-webkit-border-radius: 20px;border-radius: 20px;border: 1px solid #e4e7e8;height: 24px;padding-left: 10px;margin-top: 3px;background: white;line-height: 0;}
+.search_form_input{border-width: 0px;height: 20px;width: 148px;line-height: 20px;font-size: 12px;margin-top: 2px;}
+.circle{-webkit-border-radius:50px;border-radius: 50px;border-width:10px;width: 80px;height: 80px;display: inline;float: left;
+	background-image: url("../img/jpg/person.jpg");text-align: center;background-position: center top;margin-left: 135px;margin-top: 10px;}
+
+.main_tip_div{height: 108px;}
+.maintip_normal_div{float: left;width: 904px;height: 86px;}
+.maintip_normal_below_div{padding-top: 26px;padding-left: 20px;padding-bottom: 10px;display: block;}
+.display_inline16{display: inline;font-size: 16px;line-height: 16px;}
+.maintip_normal_under_div{padding-top: 12px;padding-left: 20px;}
+.maintip_normal_under_div_separate{padding: 0px 20px;}
+.position_relative_top2_div_separate{color: #ccc;margin: 0px 0px;}
+.business_inner_div_separate{color: #b2b2b2;padding: 0 5px;}
+.safe_level{color: #9f9;}
+.view_a{line-height: 25px;}
+
+.money_div{width: 990px;margin: 0px auto;}
+.money_main{position: relative;padding-top: 15px;color: black;}
+.money_table{width: 100%;border-collapse: collapse;background-color: white;color: gray;}
+.money_table_td25_totaldiv{margin: 0 15px 20px;overflow: hidden;}
+.money_table_td25_managermoney{margin-top: 30px;margin-bottom: 10px;line-height: 16px;}
+.height115_div_li{padding-top: 10px;padding-bottom: 6px;border-bottom: 1px solid #efefef;height: 20px;}
+.money_other_person_div{margin: 0 15px 20px;overflow: hidden;}
+.money_other_person_inner_div{margin-top: 30px;margin-bottom: 10px;line-height: 16px;}
+.encourage{height: 6px;}
+.money_table_td_div{height: 113px;position: relative;}
+.money_table_first_td{height: 100%;position: absolute;top: 0px;left: 0px;bottom: 0px;right: 0px;margin: 30px 20px 20px 30px;}
+.money_table_first_td1_position{line-height: 16px;margin-bottom: 10px;}
+.money_table_first_td2_position{margin-bottom: 10px;}
+.income_rate_num{color: #A1A1A1 !important;}
+.margin_left20{margin-left: 20px;}
+.cursor_pointer_float_right{cursor: pointer;float: right;}
+.list_item_li_a{padding: 5px 25px 6px;color: #676d70;line-height: 32px;}
+.list_item_li_a_select{background-color: rgba(61,71,74,.6);color: white;}
+.list_item_li_a_hidden{display: none;}
+
+/*
+	detail
+*/
+.money_below_div{background-color: #fff;position: relative;margin-top: 15px;}
+.money_below_inner_header_div{height: 40px;background-color: #f5f5f5;border: 1px solid #e1e1e1;border-bottom: 0px;}
+.money_below_inner_header_ul{margin: 2px;}
+.money_dynamic_li{cursor: pointer;float: left;line-height: 36px;padding: 0 25px;}
+.business_record_li{font-size: 14px;background-color: #e3e3e3;position: relative;display: inline;float: left;line-height: 36px;cursor: pointer;padding: 0 25px;}
+.electronic_bill_span{float: right;margin-right: 20px;height: 40px;line-height: 40px;}
+.electronic_bill_a{margin-left: 5px;height: 40px;line-height: 40px;}
+.money_num_div{margin-right: 20px;line-height: 24px;float: left;}
+.money_num_strong{font-size: 24px;font-weight: 400;margin-left: 2px;}
+
+.business_outer_div{border-bottom: 1px solid #ccc;position: relative;background: -webkit-gradient(linear,left top,left bottom,from(#fcfcfc),to(#f1f1f1));}
+.business_inner_div{padding: 12px 24px 12px 25px;border: 1px solid #fff;height: 14px;line-height: 16px;overflow: hidden;}
+.business_inner_div_font{font-size: 12px;font-weight: 700;color: #656565;display: inline;height: 16px;}
+
+.money_detail_td{color: gray;vertical-align: top;padding: 10px 0;border-bottom: 1px solid #e6e6e6;padding-left: 27px;}
+.money_detail_num{color: #f37800;font-weight: bold;}
+.money_detail_td_detail{outline: 0 none;margin-right: 40px;}
+.money_detail_bottom_div{padding: 12px 24px 12px 25px;background: #f5f5f5;height: 16px;line-height: 16px;text-align: right;}
+
+
+

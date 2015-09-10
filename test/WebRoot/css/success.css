@@ -1,0 +1,7 @@
+
+.body_div{position: absolute;top: 0px;left: 0px;width: 100%;}
+.write_div{background: gray;width: 400px;height: 300px;margin: 0px auto;-webkit-border-radius: 10px;filter:alpha(opacity=50);-moz-opacity:0.5;opacity:0.5;margin-top: 100px;}
+input.input{border-radius:10px;padding-left: 10px;padding-right: 10px;border-color: white;height: 30px;width: 300px;margin-top: 40px;}
+label.input_label{margin-left: 20px;}
+.form_btn{-webkit-border-radius: 5px;width: 100px;height: 30px;margin-top: 50px;margin-left: 150px;}
+.hidden_btn{display: none;}

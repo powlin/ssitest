@@ -1,0 +1,44 @@
+
+/*
+	whole page
+*/
+body{font-family:arial, 'Microsoft Yahei', 'Î¢ÈíÑÅºÚ', 'ËÎÌå', \5b8b\4f53, Tahoma, Arial, Helvetica, STHeiti;color: #555;}
+ul{list-style-type: none;margin: 0px auto;padding: 0px 0px;width: auto;height: auto;}
+a{text-decoration: none;color: #555;}
+a:hover{text-decoration: underline;}
+li.li_btn:hover{background-color: white;}
+li.li_btn a:hover{text-decoration: none;}
+.body_div{position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;}
+
+.top_div{position: absolute;top: 0px;left: 0px;right: 0px;width: 100%;height:50px;}
+.content_div{color: #555;font-size: 12px;line-height: 50px;position: absolute;left: 15px;}
+.weather_img{width: 18px;height: 18px;display: inline-block;vertical-align: middle;margin-right: 5px;border: 0;}
+.polution_em{color: #4cc74c !important;font-weight: bold;font-style: normal;}
+
+.user_div{color: #555;font-size: 12px;line-height: 50px;position: absolute;right: 20px;width: 320px;}
+.textdecoration_a{text-decoration: underline;margin-right: 14px;position: relative;}
+.arrow_span{background: url(http://su.bdimg.com/static/superplus/img/spis7_f80cc562.png) no-repeat -709px -621px;
+			width: 10px;height: 10px;position: absolute;top: 7px;}
+			
+.main_div{position: absolute;top: 50px;left: 0px;right: 0px;}
+.logo_main_div{width: 100%;height: 100px;}
+.logo_div{text-align: center;}
+.logo_img{width: 270px;height: 129px;}
+
+.search_main_div{width: 100%;height: 100px;margin-top: 20px;}
+.search_div{text-align: center;font-size: 14px;}
+.search_a{text-decoration: underline;margin-right: 14px;position: relative;color: #00C;}
+.curr_search_a{font-weight: bold;text-decoration: none;color: black;}
+.search_input_div{padding-top: 14px;}
+.search_input{width: 512px;height: 20px;padding: 9px 7px;margin-right: 0px;border-top: 1px solid #999 !important;
+				border-left: 1px solid #999 !important;border-bottom: 1px solid #b3b3b3 !important;}
+.search_input_button{cursor: pointer;width: 102px;height: 40px;padding: 0px;
+					border: 0px;background-color: #38f;font-size: 16px;color: white;font-weight: bold;}
+
+.show_div{width: 100%;height: 320px;margin-top: 30px;}
+.show_main_div{text-align: center;}
+.show_main_inner_div{width: 912px;border: 1px #999 solid;height: 320px;margin: 0px auto;}
+
+.bottom_div{position: absolute;bottom: 0px;left: 0px;right: 0px;width: 100%;margin-bottom: 0px;height: 30px;}
+.bottom_mess_div{margin: 0px auto;text-align: center;color: #CCC;font-size: 12px;}
+.mess_a{color: #CCC;font-size: 12px;}

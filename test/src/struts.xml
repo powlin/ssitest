@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<constant name="struts.enable.DynamicMethodInvocation" value="true" />
+	<package name="struts2" extends="struts-default">
+		<action name="myUser" class="com.yaoyan.user.action.UserAction">
+			<result name="error">/index.jsp</result>
+			<result name="success">/WEB-INF/jsp/zhifubao.jsp</result>
+			<result name="register">/WEB-INF/jsp/success.jsp</result>
+			<result name="login">/index.jsp</result>
+			<result name="enter">/WEB-INF/jsp/enter.jsp</result>
+		</action>
+		<action name="location" class="com.yaoyan.user.action.LocationAction">
+			<result name="error">/index.jsp</result>
+			<result name="zhuanzhang">/WEB-INF/jsp/zhuanzhang.jsp</result>
+		</action>
+	</package>
+	
+		
+	</struts> 

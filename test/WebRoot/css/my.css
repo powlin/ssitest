@@ -1,0 +1,5 @@
+
+#mainDiv{border: 1px solid #F00;width: 900px;height: 500px;position: absolute;top: 28px;left: 10px;}
+#toolDiv{width: 300px;height: 25px;position: absolute;top: 600px;background-color: #ECE9D8;}
+#colorDiv{width: 300px;height: 80px;position: absolute;top: 625px;background-color: #ECE9D8;}
+.colorClass{border-style: inset;border-width: 1px;}
